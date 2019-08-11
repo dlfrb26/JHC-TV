@@ -4,7 +4,7 @@ Description=myservice Service
 [Service]
 User=nobody
 # The configuration file application.properties should be here:
-WorkingDirectory=/data //spring boot jar파일 위치
+WorkingDirectory=/data
 ExecStart=/usr/bin/java -Xmx256m -jar -myservice.jar
 SuccessExitStatus=143
 TimeoutStopSec=10
